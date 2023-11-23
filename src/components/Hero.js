@@ -1,7 +1,6 @@
 import React from "react";
 import Typed from "react-typed";
 
-import image from "../assets/Untitled design (16).png"
 
 const Hero = () => {
     return (
