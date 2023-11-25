@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
+import { FaCheckCircle } from "react-icons/fa";
 
 const Contact = () => {
   const [isEmailSent, setIsEmailSent] = useState(false);
@@ -23,8 +24,10 @@ const Contact = () => {
   // Render confirmation page if the email is sent
   if (isEmailSent) {
     return (
-      <div className='w-full md:h-screen bg-slate-950 flex justify-center items-center p-4'>
-        <p className='text-4xl font-bold text-white'>Email sent successfully! Thank you!</p>
+      <div className='w-full md:h-screen bg-slate-950 flex justify-center items-center p-4 flex-col'>
+        <div className='p-3'><FaCheckCircle size={50} color='#22c55e' /></div>
+        <p className='text-4xl font-bold text-white text-center'>Thank you for submitting the form. 
+        <br />We will contact you soon!</p>
       </div>
     );
   }
