@@ -1,5 +1,4 @@
 import React from "react";
-import Typed from "react-typed";
 
 
 const Hero = () => {
@@ -9,14 +8,8 @@ const Hero = () => {
                 <p className="text-[#38BDF8] font-bold p-2">PROFESSIONAL SOFTWARE DEVELOPER</p>
                 <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6">Grow with Software. </h1>
                 <div className="flex justify-center items-center">
-                    <p className="md:text-5xl sm:text-4xl text-xl font-bold py-4">Fast, flexible Solutions for</p>
-                    <Typed 
-                    className="md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2 text-[#515D71]"
-                    strings={['B2B', 'B2C', 'SMB']} 
-                    typespeed={120} 
-                    backspeed={140} 
-                    loop
-                    />
+                    <p className="md:text-5xl sm:text-4xl text-xl font-bold py-4">Fast, flexible Solutions for <span className="text-gray-300">B2B</span></p>
+                    
                 </div>
                 <p className="md:text-2xl text-xl font-bold text-[#515D71] ">Enhance Your Business Performance With Reliable Software Solutions</p>
                 <button className="bg-[#38BDF8] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black hover:bg-blue-300 hover:text-white ease-in-out duration-500">Contact Us</button>
