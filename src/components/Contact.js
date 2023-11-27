@@ -35,7 +35,7 @@ const Contact = () => {
   // Render the contact form if the email is not sent
   return (
     <div name='contact' className='w-full md:h-screen bg-slate-950 flex justify-center items-center p-4'>
-      <form onSubmit={sendEmail} className='flex flex-col max-w-[800px] w-full h-full'>
+      <form onSubmit={sendEmail} className='flex flex-col max-w-[1000px] w-full h-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 border-blue-300 text-gray-300'>Contact</p>
           <p className='text-gray-300 py-4'>// Submit the form below or shoot me an email </p>
